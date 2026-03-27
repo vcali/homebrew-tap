@@ -7,14 +7,14 @@ class Shellshelf < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/vcali/shellshelf/releases/download/v0.1.0-build.11/shellshelf-aarch64-apple-darwin.tar.gz"
-      sha256 "9bfe50d9963ea36d1e2677b5d90abafd9becf77928b85cb2f568f2f7c1d8a7a5"
+      sha256 "4b1c268082e2fd556cd941dfdd149f016a961b453d064570bac308043fa0ad36"
     else
       url "https://github.com/vcali/shellshelf/releases/download/v0.1.0-build.11/shellshelf-x86_64-apple-darwin.tar.gz"
-      sha256 "989996bd5692676809fa9f0fdfad6fa7bfca717fac2f8747873bfffc1003059c"
+      sha256 "843382d78b9fe3d026b228aba7a10bfe80cb74364239d1b4791cce61387b875f"
     end
   elsif OS.linux?
     url "https://github.com/vcali/shellshelf/releases/download/v0.1.0-build.11/shellshelf-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "57bec036feb4cba4fcfa8b408b05dced071240a02ce480ac178d82066066dd4a"
+    sha256 "3b6bcdeba865e2c44cd0e84ee9ef98a1a4bfbe992ac8ced72668e69f27b0c459"
   end
 
   def install
