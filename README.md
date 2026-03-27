@@ -1,9 +1,9 @@
 # homebrew-tap
 
-Homebrew tap for `combib`.
+Homebrew tap for `shellshelf`.
 
 ## Install
 
 ```bash
-brew install vcali/tap/combib
+brew install vcali/tap/shellshelf
 ```
