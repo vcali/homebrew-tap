@@ -1,21 +1,21 @@
 class Shellshelf < Formula
   desc "CLI for storing, searching, and sharing reusable shell commands"
   homepage "https://github.com/vcali/shellshelf"
-  version "0.2.3"
+  version "0.2.4"
 
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/vcali/shellshelf/releases/download/v0.2.3/shellshelf-aarch64-apple-darwin.tar.gz"
-      sha256 "4534fc5325d830a8295b3b9520ab471085016336ffa3f0a13beb9544cf68545b"
+      url "https://github.com/vcali/shellshelf/releases/download/v0.2.4/shellshelf-aarch64-apple-darwin.tar.gz"
+      sha256 "ccf57ac0c53085b764ece74084e287df8a5be6aef2e6de8de94322807c192171"
     else
-      url "https://github.com/vcali/shellshelf/releases/download/v0.2.3/shellshelf-x86_64-apple-darwin.tar.gz"
-      sha256 "f98d7d52462ed7c2eba7681795d09a1cf7e7e93de93932fa30c96af2c70f1cd6"
+      url "https://github.com/vcali/shellshelf/releases/download/v0.2.4/shellshelf-x86_64-apple-darwin.tar.gz"
+      sha256 "4114dee5e59145a9daed05e40b067b7fa8502dbc9033ccae43e2c28b13d669e5"
     end
   elsif OS.linux?
-    url "https://github.com/vcali/shellshelf/releases/download/v0.2.3/shellshelf-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "1cb239f122fe1b1d2d7476bd14dd03d7940ddecc2e05e6966e396380d7ba12cc"
+    url "https://github.com/vcali/shellshelf/releases/download/v0.2.4/shellshelf-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "4cb8a8a0095611585f371e936b9dd9d8306f030ff88328b566cba70f4a889fdd"
   end
 
   def install
